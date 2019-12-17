@@ -66,9 +66,10 @@ nav {
 
 a {
     text-decoration: none;
-    font-size: 3.2em;
+    font-size: 2.8em;
     color: black;
     font-weight: bold;
+    padding: 10px 20px 0;
 }
 
 a#next {
@@ -100,7 +101,8 @@ i {
     }
 
     a {
-        font-size: 1.5em;
+        font-size: 1.4em;
+        padding: 5px 5px 0;
     }
 }
 
@@ -116,7 +118,8 @@ i {
     }
 
     a {
-        font-size: 1.2em;
+        font-size: 1.1em;
+        padding: 0 5px ;
     }
 }
 
@@ -137,6 +140,7 @@ i {
 
     a {
         font-size: 1em;
+        padding: 3px 5px 0;
     }
 }
   
@@ -185,6 +189,10 @@ i {
       content: attr(data-label);
       font-weight: bold;
     }
+
+    a {
+        padding: 0 5px;
+    }
 }
 
 @media screen and (max-width: 425px) {
@@ -220,5 +228,6 @@ i {
 
     a {
         font-size: .8em;
+        padding: 3px 3px 0;
     }
 }
