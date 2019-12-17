@@ -46,7 +46,7 @@ tr:nth-child(odd) {
 table th {
     padding: .6em;
     font-size: 3.4em;
-    text-align: center;
+    text-align: start;
     letter-spacing: .1em;
     background-color: #ffffff;
 }
@@ -54,7 +54,7 @@ table th {
 table td {
     padding: .6em;
     font-size: 3.2em;
-    text-align: center;
+    text-align: start;
 }
 
 a {
@@ -85,12 +85,12 @@ i {
 
     table th {
         font-size: 1.8em;
-        text-align: center;
+        text-align: start;
     }
 
     table td {
         font-size: 1.5em;
-        text-align: center;
+        text-align: start;
     }
 
     a {
@@ -101,12 +101,12 @@ i {
 @media screen and (max-width: 1400px) {
     table th {
         font-size: 1.4em;
-        text-align: center;
+        text-align: start;
     }
 
     table td {
         font-size: 1.2em;
-        text-align: center;
+        text-align: start;
     }
 
     a {
@@ -121,12 +121,12 @@ i {
 
     table th {
         font-size: 1em;
-        text-align: center;
+        text-align: start;
     }
 
     table td {
         font-size: .8em;
-        text-align: center;
+        text-align: start;
     }
 
     a {
